@@ -1,0 +1,115 @@
+baserace/portal_sparks_ps
+{
+	ejector
+	{
+		particle
+		{
+			shader sync textures/baserace/sfx_flare_01_shader
+			displacement 0 0 0 ~40.0
+			cullOnStartSolid
+			velocityType		static
+			velocityDir		linear
+			velocityMagnitude	5
+			velocity		0 0 1 ~2
+			accelerationType	static
+			accelerationDir		linear
+			acceleration		0 0 1 ~25
+			accelerationMagnitude 	10
+			radius		5000 5 2
+			alpha		8000 1 .5
+			rotation	0 0 ~360
+			bounce		cull
+			lifeTime 10000
+		}
+		count infinite
+		delay 0
+		period 100 - ~0%
+	}
+}
+
+baserace/smoke_01_ps
+{
+	ejector
+	{
+		particle
+		{
+		shader sync textures/baserace/sfx_smoke_shader
+		displacement 1 1 1 ~1.0
+		velocityType	static
+		velocityDir		linear
+		velocityMagnitude	10
+		velocity		0.1 0.1 0.1 ~0.4
+		accelerationType	static
+		accelerationDir		linear
+		acceleration		-1.0 0 0.1 ~0.03
+		accelerationMagnitude	6
+		radius		0 50 400
+		alpha 0 0.4 0.0
+		rotation	0 ~360 ~360
+		bounce		0.0
+		overdrawProtection 
+ 		lifeTime 30000
+		}
+	count infinite
+	delay 900
+	period 4000 - ~0%
+	}
+}
+
+baserace/smoke_02_ps
+{
+	ejector
+	{
+		particle
+		{
+		shader sync textures/baserace/sfx_smoke_shader
+		displacement 1 1 1 ~1.0
+		velocityType	static
+		velocityDir		linear
+		velocityMagnitude	10
+		velocity		0.1 0.1 0.1 ~0.4
+		accelerationType	static
+		accelerationDir		linear
+		acceleration		-0.2 1.0 0.1 ~0.3
+		accelerationMagnitude	6
+		radius		0 40 300
+		alpha 0 0.4 0.0
+		rotation	0 ~360 ~360
+		bounce		0.0
+		overdrawProtection 
+ 		lifeTime 25000
+		}
+	count infinite
+	delay 1000
+	period 4000 - ~0%
+	}
+}
+
+baserace/smoke_03_ps
+{
+	ejector
+	{
+		particle
+		{
+		shader sync textures/baserace/sfx_smoke_shader
+			displacement 0 0 0 0
+			velocityType		static
+			velocityDir			linear
+			velocityMagnitude		45
+			velocity			0 0 -1  ~15
+			accelerationType		static
+			accelerationDir		linear
+			acceleration		15 -5 -1 ~5
+			accelerationMagnitude	25
+			radius		0 5 40
+			alpha			250 .5 0
+			rotation		0 ~360 ~360
+			bounce		0.0
+		lifeTime 2000
+		}
+	count 8
+	delay 0
+	period 3000 - ~0%
+	}
+}
+
