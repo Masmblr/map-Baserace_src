@@ -21,11 +21,11 @@ Map Description:
 [<img src="meta/preview_levelshots/8.jpg" width="250"/>](meta/preview_levelshots/8.jpg)
 
 ## Version History:
-| Version: | Date:        | Status: | Release Build (.pk3):       
-| ------- | ------------- | ------: | -----------------: |
-| 1.0     | 01/02/2013 | beta | :x:        |     
-| 2.0     | 16/02/2013  | beta | :x:        |     
-| 3.0     | 26/02/2013  | final | [💾](https://github.com/Masmblr/map-Baserace_src/releases/) |
+| Version: | Date:        | Status: |
+| ------- | ------------- | ------: |
+| 1.0     | 01/02/2013 | beta |
+| 2.0     | 16/02/2013  | beta |
+| 3.0     | 26/02/2013  | release |
 
 ## How-To
 **Binary**:
@@ -112,7 +112,7 @@ textures\baserace\temple_team_03.jpg <sup>[1](#Credit-1)</sup>
 ***
 
 ### Credit-1
-[Matthias "Masmblr Peters"](mailto:masmblr@gmail.com) \
+[Matthias "Masmblr" Peters](mailto:masmblr@gmail.com) \
 Content: Map, Textures, Shaders \
 License: [MIT License](https://opensource.org/license/mit/).
 (See "LICENSE" file for more Informations.)
